@@ -53,7 +53,7 @@
   * 즉 일반 HTTP의 경우 연결이 안전하지 않기 때문에 보안적으로 취약함
 * 3단계 과정
   1. Cipher Suites 교환: TLS에서 활용하는 보안 알고리즘들   
-  클라이언트 --- SSL/TLS 버전, 지원하는 **Cipher Suites** 목록, 기타 정보 ---> 서버
+  클라이언트 --- SSL/TLS 버전, 지원하는 **Cipher Suites** 목록, 기타 정보 ---> 서버  
   클라이언트 <--- SSL/TLS 버전, 선택한 Cipher Suites, **인증서**, 기타 정보 --- 서버
   2. 인증   
   인증서: 믿을 수 있는 인증 기관(Certificate authority)에서 배포하는 서버 신원에 대한 검증 확인   
