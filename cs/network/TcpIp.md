@@ -53,7 +53,7 @@
 ## 4. OSI 7계층
 
 * OSI 7계층과 TCP/IP 4계층의 차이를 알아두자
-  ![img.png](img.png)
+  ![img.png](img/img.png)
 
 # 2. TCP/IP 4계층(2)
 
@@ -75,7 +75,7 @@
 * MSS(Maximum Segment Size)는 TCP에서 사용할 수 있는 데이터의 크기이자 TCP 헤더, IP 헤더를 뺀 크기
 * 일반적으로 MTU는 1500바이트, MSS는 1460바이트
 * 그렇기 때문에 MTU가 1500이라도 데이터는 보통 1460 이하의 크기로 보내야 전달이 됨
-  ![img_2.png](img_2.png)
+  ![img_2.png](img/img_2.png)
 
 ## 3. PMTUD
 
@@ -185,7 +185,7 @@ ssh <pem> <user>@<serverIP>
 
 ## 4. 클라이언트와 서버의 상태
 
-![img_4.png](img_4.png)
+![img_4.png](img/img_4.png)
 
 * TCP 연결을 하면서
     * 클라이언트
@@ -204,7 +204,7 @@ ssh <pem> <user>@<serverIP>
 
 ## 연결 해제 과정
 
-![img_3.png](img_3.png)
+![img_3.png](img/img_3.png)
 
 1. **클라이언트**: 연결을 닫으려고 할 때 **FIN**으로 설정된 세그먼트를 보냄   
    **FIN_WAIT_1** 상태로 들어가고 서버의 응답을 기다림
