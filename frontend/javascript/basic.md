@@ -10,19 +10,19 @@
 
 ```mermaid
 flowchart LR
-    DT[자료형\nData Type] --- PT[원시 자료형\nPrimitive Type]
-    DT --- OT[객체 자료형\nObject Type]
+    DT["자료형<br>Data Type"] --- PT["원시 자료형<br>Primitive Type"]
+    DT --- OT["객체 자료형<br>Object Type"]
 
-    PT --- NT[숫자형\nNumber Type]
-    PT --- ST[문자형\nString Type]
-    PT --- BT[불리언형\nBoolean Type]
-    PT --- NT2[null 형\nnullType]
-    PT --- UT[Undefined형\nundefined Type]
+    PT --- NT["숫자형<br>Number Type"]
+    PT --- ST["문자형<br>String Type"]
+    PT --- BT["불리언형<br>Boolean Type"]
+    PT --- NT2["null 형<br>nullType"]
+    PT --- UT["Undefined형<br>undefined Type"]
 
-    OT --- OBJ[Object 형\nObject Type]
-    OBJ --- ARR[배열\nArray]
-    OBJ --- FUNC[함수\nFunction]
-    OBJ --- REG[정규표현식\nRegExp]
+    OT --- OBJ["Object 형<br>Object Type"]
+    OBJ --- ARR["배열<br>Array"]
+    OBJ --- FUNC["함수<br>Function"]
+    OBJ --- REG["정규표현식<br>RegExp"]
 ```
 
 - null
